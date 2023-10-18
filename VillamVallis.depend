@@ -473,27 +473,28 @@
 	<SDL2/SDL.h>
 	<SDL2/SDL2_gfxPrimitives.h>
 
-1697211423 source:z:\egyetem\s1\prog1\nhf\villamvallis\gamecycle.c
+1697641736 source:z:\egyetem\s1\prog1\nhf\villamvallis\gamecycle.c
 	"gameCycle.h"
 	<SDL2/SDL.h>
 	<SDL2/SDL2_gfxPrimitives.h>
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_ttf.h>
 	<stdbool.h>
+	"szoveg_kiir.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"dinTomb.h"
+	"gameManagement.h"
 
-1697273385 z:\egyetem\s1\prog1\nhf\villamvallis\gamecycle.h
+1697274260 z:\egyetem\s1\prog1\nhf\villamvallis\gamecycle.h
 	<SDL2/SDL.h>
 	<SDL2/SDL2_gfxPrimitives.h>
 	<SDL2/SDL_image.h>
 	<SDL2/SDL_ttf.h>
 
-1697273385 source:z:\egyetem\s1\prog1\nhf\villamvallis\main.c
-	<stdlib.h>
-	<stdbool.h>
+1697274477 source:z:\egyetem\s1\prog1\nhf\villamvallis\main.c
 	<SDL2/SDL.h>
-	<SDL2/SDL2_gfxPrimitives.h>
-	<SDL2/SDL_image.h>
-	"szoveg_kiir.h"
 	"ablak.h"
 	"gameCycle.h"
 
@@ -502,4 +503,23 @@
 1696669490 source:z:\egyetem\s1\prog1\nhf\villamvallis\szoveg_kiir.c
 	<SDL2/SDL_ttf.h>
 	"szoveg_kiir.h"
+
+1697641724 z:\egyetem\s1\prog1\nhf\villamvallis\gamemanagement.h
+	<stdbool.h>
+	"dinTomb.h"
+
+1697641720 source:z:\egyetem\s1\prog1\nhf\villamvallis\gamemanagement.c
+	"gameManagement.h"
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+
+1697560202 source:z:\egyetem\s1\prog1\nhf\villamvallis\dintomb.c
+	"dinTomb.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1697563289 z:\egyetem\s1\prog1\nhf\villamvallis\dintomb.h
+	<stdbool.h>
 

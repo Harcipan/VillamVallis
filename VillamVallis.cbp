@@ -50,10 +50,18 @@
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="ablak.h" />
+		<Unit filename="dinTomb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="dinTomb.h" />
 		<Unit filename="gameCycle.c">
 			<Option compilerVar="CC" />
 		</Unit>
 		<Unit filename="gameCycle.h" />
+		<Unit filename="gameManagement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="gameManagement.h" />
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
