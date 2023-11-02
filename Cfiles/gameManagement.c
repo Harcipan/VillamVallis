@@ -3,7 +3,7 @@
 #include <stdbool.h>
 #include <string.h>
 #include <stdlib.h>
-int loadGame(int *kertSor,int *kertOszlop)
+int loadGame(int *kertSor,int *kertOszlop,int *penz, player* p1, char* save_file)
 {
     //Load-Game
 
@@ -11,7 +11,7 @@ int loadGame(int *kertSor,int *kertOszlop)
     FILE *file;
 
     // Open the file for reading
-    file = fopen("save_file.txt", "r");
+    file = fopen(save_file, "r");
 
     // Check if the file was opened successfully
     if (file == NULL)
@@ -45,6 +45,40 @@ int loadGame(int *kertSor,int *kertOszlop)
             {
                 // Parse the number after the colon
                 *kertOszlop = atoi(numberStr + 1);
+                //break; // Stop searching after finding the first occurrence
+            }
+        }
+        if (strstr(line, "penz:") != NULL)
+        {
+            // Find the line containing "penz:"
+            char* numberStr = strchr(line, ':');
+            if (numberStr != NULL)
+            {
+                // Parse the number after the colon
+                *penz = atoi(numberStr + 1);
+                //break; // Stop searching after finding the first occurrence
+            }
+        }
+                if (strstr(line, "playerPosX:") != NULL)
+        {
+            // Find the line containing "penz:"
+            char* numberStr = strchr(line, ':');
+            if (numberStr != NULL)
+            {
+                // Parse the number after the colon
+                p1->playerX = atoi(numberStr + 1);
+                //break; // Stop searching after finding the first occurrence
+            }
+        }
+                if (strstr(line, "playerPosY:") != NULL)
+        {
+            // Find the line containing "penz:"
+            char* numberStr = strchr(line, ':');
+            if (numberStr != NULL)
+            {
+                // Parse the number after the colon
+                p1->playerY = atoi(numberStr + 1);
+                printf("%d",p1->playerY);
                 //break; // Stop searching after finding the first occurrence
             }
         }
@@ -92,7 +126,7 @@ bool readTo2DArray(int *arr[], int rows, int cols) {
 }
 
 //SaveGame
-bool saveGame(int kertSor,int kertOszlop, int **kertAdat)
+bool saveGame(int kertSor,int kertOszlop, int **kertAdat,int penz, int playerX, int playerY)
 {
     FILE *file;
 
@@ -108,7 +142,9 @@ bool saveGame(int kertSor,int kertOszlop, int **kertAdat)
     // Write kertSor and kertOszlop to the file
     fprintf(file, "kertSor: %d\n", kertSor);
     fprintf(file, "kertOszlop: %d\n", kertOszlop);
-
+    fprintf(file, "penz: %d\n", penz);
+    fprintf(file, "playerPosX: %d\n", playerX);
+    fprintf(file, "playerPosY: %d\n", playerY);
     // Write "kertAdat:" to the file
     fprintf(file, "kertAdat:");
     fprintf(file, "\n");
@@ -129,4 +165,17 @@ bool saveGame(int kertSor,int kertOszlop, int **kertAdat)
     printf("\nSave successful.\n");
 
     return true;
+}
+
+void changeScene(int select, int *currentScene)
+{
+    if(select==1)
+    {
+        *currentScene=2;
+    }
+
+    else
+    {
+        *currentScene=1;
+    }
 }

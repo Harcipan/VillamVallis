@@ -1,6 +1,7 @@
 #include "dinTomb.h"
 #include<stdbool.h>
 #include<stdlib.h>
+#include "debugmalloc.h"
 
 
 bool dintomb_atmeretez(DinTomb *kertTartalma, int ujmeretSor, int ujmeretOszlop)
@@ -107,4 +108,15 @@ void dintomb_feltolt(DinTomb *kertTartalma, int meretSor, int meretOszlop,int to
             kertTartalma->adat[i][j] = tolto;
         }
     }
+}
+
+void memoryCleanup(DinTomb *kertTartalma,SDL_Texture *novenyek,SDL_Texture *playerText)//,SDL_Texture *playerText
+{
+    for (int i = 0; i < kertTartalma->meretSor; ++i)
+    {
+        free(kertTartalma->adat[i]);
+    }
+    free(kertTartalma->adat);
+    SDL_DestroyTexture(novenyek);
+    SDL_DestroyTexture(playerText);
 }

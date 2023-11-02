@@ -9,11 +9,11 @@
 	"ablak.h"
 	"gameCycle.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl2_gfxprimitives.h
 	<math.h>
 	"SDL.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -47,12 +47,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_main.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_stdinc.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -81,27 +81,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_config.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_platform.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\begin_code.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\begin_code.h
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\close_code.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\close_code.h
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl_assert.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl_atomic.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -109,7 +109,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl_audio.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -119,25 +119,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_error.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_endian.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_mutex.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_thread.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -148,18 +148,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_rwops.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_clipboard.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -178,7 +178,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_events.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -192,7 +192,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_video.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -200,13 +200,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_pixels.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_rect.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -214,7 +214,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_surface.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -223,11 +223,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580722 c:\program files\codeblocks\mingw\include\sdl2\sdl_blendmode.h
+1696577122 c:\program files\codeblocks\mingw\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_keyboard.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -235,27 +235,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_keycode.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_scancode.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_mouse.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_joystick.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -263,11 +263,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_quit.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_gesture.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -275,71 +275,71 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_touch.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_filesystem.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_haptic.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_hints.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_loadso.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_log.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_messagebox.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_metal.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_power.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_render.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_sensor.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_shape.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -348,7 +348,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580724 c:\program files\codeblocks\mingw\include\sdl2\sdl_system.h
+1696577124 c:\program files\codeblocks\mingw\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -356,13 +356,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_timer.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_version.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
@@ -395,7 +395,7 @@
 	"szoveg_kiir.h"
 	"ablak.h"
 
-1696580723 c:\program files\codeblocks\mingw\include\sdl2\sdl_image.h
+1696577123 c:\program files\codeblocks\mingw\include\sdl2\sdl_image.h
 	"SDL.h"
 	"SDL_version.h"
 	"begin_code.h"
@@ -407,7 +407,7 @@
 	<SDL2/SDL_ttf.h>
 	"szoveg_kiir.h"
 
-1696580725 c:\program files\codeblocks\mingw\include\sdl2\sdl_ttf.h
+1696577125 c:\program files\codeblocks\mingw\include\sdl2\sdl_ttf.h
 	"SDL.h"
 	"begin_code.h"
 	"close_code.h"
@@ -581,4 +581,148 @@
 1696669490 source:z:\egyetem\s1\prog1\nhf\villamvallis\cfiles\szoveg_kiir.c
 	<SDL2/SDL_ttf.h>
 	"szoveg_kiir.h"
+
+1698950419 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\ablak.c
+	"ablak.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+
+1698589100 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\ablak.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<stdbool.h>
+
+1698606797 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\dintomb.c
+	"dinTomb.h"
+	<stdbool.h>
+	<stdlib.h>
+	"debugmalloc.h"
+
+1698606735 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\dintomb.h
+	<stdbool.h>
+	<SDL2/SDL.h>
+
+1698953205 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\gamecycle.c
+	"gameCycle.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdbool.h>
+	"szoveg_kiir.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"dinTomb.h"
+	"gameManagement.h"
+	"ablak.h"
+	"debugmalloc.h"
+	"assetDraw.h"
+	"gameInput.h"
+	"kertErtekad.h"
+
+1698950867 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\gamecycle.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1698514029 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\szoveg_kiir.h
+
+1698947260 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\gamemanagement.h
+	<stdbool.h>
+	"dinTomb.h"
+	"gameCycle.h"
+
+1698947309 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\gamemanagement.c
+	"gameManagement.h"
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+
+1698950859 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\main.c
+	"gameCycle.h"
+	"debugmalloc.h"
+
+1698949242 source:z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\szoveg_kiir.c
+	<SDL2/SDL_ttf.h>
+	"szoveg_kiir.h"
+
+1698428657 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\ablak.c
+	"ablak.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+
+1698428614 d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\ablak.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+
+1697560202 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\dintomb.c
+	"dinTomb.h"
+	<stdbool.h>
+	<stdlib.h>
+
+1697563289 d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\dintomb.h
+	<stdbool.h>
+
+1698433259 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\gamecycle.c
+	"gameCycle.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+	<stdbool.h>
+	"szoveg_kiir.h"
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	"dinTomb.h"
+	"gameManagement.h"
+	"ablak.h"
+
+1698430006 d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\gamecycle.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_image.h>
+	<SDL2/SDL_ttf.h>
+
+1696669514 d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\szoveg_kiir.h
+
+1697641724 d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\gamemanagement.h
+	<stdbool.h>
+	"dinTomb.h"
+
+1697641720 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\gamemanagement.c
+	"gameManagement.h"
+	<stdio.h>
+	<stdbool.h>
+	<string.h>
+	<stdlib.h>
+
+1698430505 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\main.c
+	"gameCycle.h"
+
+1696669490 source:d:\egyetem\1.semester\prog1\nhf\2023-10-28\villamvallis\cfiles\szoveg_kiir.c
+	<SDL2/SDL_ttf.h>
+	"szoveg_kiir.h"
+
+1698234377 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\debugmalloc.h
+	<stdbool.h>
+	<stddef.h>
+	<stdlib.h>
+	<stdio.h>
+	<ctype.h>
+	<string.h>
+	<stdarg.h>
+	<process.h>
+	<unistd.h>
+
+1698952984 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\assetdraw.h
+	"gameCycle.h"
+
+1698608640 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\gameinput.h
+	"gameCycle.h"
+
+1698523870 z:\kornel\egyetem\s1\prog1\nhf\villamvallis\cfiles\kertertekad.h
 

@@ -46,29 +46,33 @@
 			<Add library="dxguid" />
 			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
 		</Linker>
-		<Unit filename="ablak.c">
+		<Unit filename="Cfiles/ablak.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="ablak.h" />
-		<Unit filename="dinTomb.c">
+		<Unit filename="Cfiles/ablak.h" />
+		<Unit filename="Cfiles/assetDraw.h" />
+		<Unit filename="Cfiles/debugmalloc.h" />
+		<Unit filename="Cfiles/dinTomb.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="dinTomb.h" />
-		<Unit filename="gameCycle.c">
+		<Unit filename="Cfiles/dinTomb.h" />
+		<Unit filename="Cfiles/gameCycle.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="gameCycle.h" />
-		<Unit filename="gameManagement.c">
+		<Unit filename="Cfiles/gameCycle.h" />
+		<Unit filename="Cfiles/gameInput.h" />
+		<Unit filename="Cfiles/gameManagement.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="gameManagement.h" />
-		<Unit filename="main.c">
+		<Unit filename="Cfiles/gameManagement.h" />
+		<Unit filename="Cfiles/kertErtekad.h" />
+		<Unit filename="Cfiles/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="szoveg_kiir.c">
+		<Unit filename="Cfiles/szoveg_kiir.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="szoveg_kiir.h" />
+		<Unit filename="Cfiles/szoveg_kiir.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

@@ -5,5 +5,8 @@
 #include <SDL2/SDL2_gfxPrimitives.h>
 #include <SDL2/SDL_image.h>
 #include <SDL2/SDL_ttf.h>
-void gameCycle(SDL_Renderer *renderer);
+    typedef struct player{
+    int playerX,playerY,playerSpeed;
+    }player;
+void gameCycle();//SDL_Renderer *renderer, SDL_Window* window, int isFullscreen
 #endif // GAMECYCLE_H_INCLUDED

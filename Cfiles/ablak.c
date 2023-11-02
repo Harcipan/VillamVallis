@@ -29,3 +29,19 @@ Uint32 idozit(Uint32 ms, void *param) {
     SDL_PushEvent(&ev);
     return ms;   /* ujabb varakozas */
 }
+
+void toggleFullscreen(SDL_Window *window, bool *isFullscreen)
+{
+    if (*isFullscreen)
+    {
+        SDL_SetWindowFullscreen(window, 0); // Exit fullscreen
+        *isFullscreen = false;
+    }
+    else
+    {
+        SDL_SetWindowFullscreen(window, SDL_WINDOW_FULLSCREEN_DESKTOP); // Enter fullscreen
+        *isFullscreen = true;
+    }
+}
+
+
