@@ -46,33 +46,58 @@
 			<Add library="dxguid" />
 			<Add directory="C:/Program Files/CodeBlocks/MinGW/lib" />
 		</Linker>
-		<Unit filename="Cfiles/ablak.c">
+		<Unit filename="Cfiles/Ablak.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Cfiles/ablak.h" />
-		<Unit filename="Cfiles/assetDraw.h" />
+		<Unit filename="Cfiles/Ablak.h" />
+		<Unit filename="Cfiles/Animation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/Animation.h" />
+		<Unit filename="Cfiles/AssetDraw.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/AssetDraw.h" />
+		<Unit filename="Cfiles/Collisions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/Collisions.h" />
+		<Unit filename="Cfiles/DinTomb.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/DinTomb.h" />
+		<Unit filename="Cfiles/GameCycle.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/GameCycle.h" />
+		<Unit filename="Cfiles/InputGame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/InputGame.h" />
+		<Unit filename="Cfiles/KertErtekad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/KertErtekad.h" />
+		<Unit filename="Cfiles/ManagementGame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/ManagementGame.h" />
+		<Unit filename="Cfiles/SceneGame.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/SceneGame.h" />
+		<Unit filename="Cfiles/SceneMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/SceneMenu.h" />
+		<Unit filename="Cfiles/SzovegKiir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="Cfiles/SzovegKiir.h" />
 		<Unit filename="Cfiles/debugmalloc.h" />
-		<Unit filename="Cfiles/dinTomb.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Cfiles/dinTomb.h" />
-		<Unit filename="Cfiles/gameCycle.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Cfiles/gameCycle.h" />
-		<Unit filename="Cfiles/gameInput.h" />
-		<Unit filename="Cfiles/gameManagement.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Cfiles/gameManagement.h" />
-		<Unit filename="Cfiles/kertErtekad.h" />
 		<Unit filename="Cfiles/main.c">
 			<Option compilerVar="CC" />
 		</Unit>
-		<Unit filename="Cfiles/szoveg_kiir.c">
-			<Option compilerVar="CC" />
-		</Unit>
-		<Unit filename="Cfiles/szoveg_kiir.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>
