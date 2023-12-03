@@ -19,7 +19,9 @@ void initializeGame(int newGame, char *save_file,player* p1,DinTomb* kertTartalm
             printf("Hiba a mentett allas betolteseben.");
             SDL_Delay(60000);//60s wait, debug segítség
         }
-        loadGame(&kertSor,&kertOszlop,p1,save_file);
+        if(!loadGame(&kertSor,&kertOszlop,p1,save_file)){
+            newGame=true;
+        }
     }
 
     dintomb_foglal(kertTartalma, kertSor,kertOszlop);

@@ -126,7 +126,7 @@ void GameScene(WindowParam* ablak, gameVariables* gameVar, char *save_file)
             SDL_GetWindowSize(ablak->window, &ablak->windX, &ablak->windY);
             if(gameVar->settingsOpen)
             {
-                drawSettings(ablak->renderer, ablak->window, menuButtons,gombokSzama);
+                drawSettings(ablak->renderer, ablak->window, menuButtons,gombokSzama,novenyText);
                 SDL_RenderPresent(ablak->renderer);
             }
             else

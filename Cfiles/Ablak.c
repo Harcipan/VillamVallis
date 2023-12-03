@@ -47,7 +47,7 @@ Uint32 idozit(Uint32 ms, void *param)
 void calcButtonPos(WindowParam* ablak,SDL_Rect* menuButtons, int gombokSzama)
 {
 
-    enum {buttonW=170, buttonH=100};
+    enum {buttonW=220, buttonH=100};
     if(gombokSzama==3) //align center
     {
         for (int i = 0; i < gombokSzama; i++)

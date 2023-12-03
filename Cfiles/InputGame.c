@@ -19,7 +19,7 @@ void gamekeyDown(SDL_Event event, DinTomb *kertTartalma, player* p1, int *isSett
     int maxY=6;
     int maxX=10;
     //ha szamot nyomunk meg
-    if (event.key.keysym.sym >= SDLK_1 && event.key.keysym.sym <= SDLK_8)
+    if (event.key.keysym.sym >= SDLK_1 && event.key.keysym.sym <= SDLK_3)
     {
         int pressedNumber = event.key.keysym.sym - SDLK_0;
         p1->currentTool=pressedNumber;

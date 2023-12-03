@@ -89,7 +89,7 @@ bool loadGame(int *kertSor, int *kertOszlop, player *p1, char *save_file)
     // Ellenõrizzük, hogy a fájlt sikeresen megnyitottuk-e
     if (file == NULL)
     {
-        printf("Nem sikerült megnyitni a fájlt.\n");
+        printf("Nem sikerult megnyitni a fajlt.\n");
         return false;
     }
 
@@ -172,7 +172,7 @@ bool readTo2DArray(int *arr[], int rows, int cols, char* save_file)
     FILE *file = fopen(filenameWithExtension, "r");
     if (file == NULL)
     {
-        printf("Hiba a fájl megnyitásakor!\n");
+        printf("Hiba a fajl megnyitásakor!\n");
         return false;
     }
 
@@ -228,7 +228,7 @@ bool saveGame(int kertSor, int kertOszlop, int **kertAdat, player* p1,char* save
     // Ellenõrizzük, hogy a fájlt sikeresen megnyitottuk-e
     if (file == NULL)
     {
-        printf("Nem sikerült megnyitni a fájlt.\n");
+        printf("Nem sikerult megnyitni a fajlt.\n");
         return false;
     }
 

@@ -20,7 +20,7 @@ void MenuScene(WindowParam* ablak, gameVariables* gameVar, char* save_file)
 
     SDL_Texture *novenyText=loadTexture(ablak->renderer,"Textures/wheat.png");
 
-    enum {buttonW=150, buttonH=100};
+    //enum {buttonW=150, buttonH=100};
     int gombokSzama=4;
     SDL_Rect menuButtons[gombokSzama]; // An array to store rectangles
     calcButtonPos(ablak,menuButtons,gombokSzama);
